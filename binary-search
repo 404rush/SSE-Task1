@@ -7,7 +7,7 @@ int main()
 {
     int a[5] = {10, 20, 30, 40, 50};
 
-    // Element to search
+    // Key to search
     int ans;
 
     // Start and end position
@@ -28,9 +28,8 @@ int main()
             return 0;
         }
     }
-}
 
-    printf("Element not found");
+    printf("Answer not found");
 
     return 0;
 }
